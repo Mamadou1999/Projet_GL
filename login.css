@@ -1,0 +1,91 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+body{
+    background-color: rgb(0, 51, 102);
+    display: flex;
+    color: white;
+}
+
+#mainWrapper{
+    margin: auto;
+}
+h1{
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+#form{
+    display: flex;
+}
+
+form{
+    margin: auto;
+}
+
+h1{
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+input{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#validateButton{
+    display: flex;
+}
+
+input[type="submit"]{
+    background-color: rgb(37, 253, 233);
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+}
+input[type="text"]{
+	width: 300px;
+}
+input[type="password"]{
+	width: 300px;
+}
+#pswdForgotten, #signUpLink{
+    font-size:0.5em;
+    text-align:center;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.spanError{
+    font-size: 0.6em;
+    color :#D0003C;
+    font-weight: bold;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#inscrire{
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+#pswd{
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
